@@ -14,7 +14,7 @@ label.config(width="100")
 
 label.pack()
 
-#textfieldf
+#textfield
 name = tk.Entry(window)
 name.pack()
 

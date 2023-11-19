@@ -20,7 +20,7 @@ def save_details():
     else:
      wb = openpyxl.Workbook()
      ws = wb.create_sheet("sheet1")
-     ws.append('p-name','p_description','p_price')
+     ws.append(['p-name','p_description','p_price'])
      wb.save("untitled1.xlsx")
     
     wb = openpyxl.load_workbook("untitled1.xlsx")
